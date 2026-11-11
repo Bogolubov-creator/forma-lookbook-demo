@@ -1,6 +1,6 @@
 const scope = new URL(self.registration.scope);
 const cachePrefix = 'forma-demo:' + scope.pathname + ':';
-const { version, files } = {"version":"cf49bbf6228af1c940de","files":["assets/denim.webp","assets/glasses.webp","assets/index-Qry5d4eI.css","assets/index-YO93AWKe.js","assets/jacket.webp","assets/knit.webp","assets/loafers.webp","assets/shirt.webp","assets/sneakers.webp","assets/tee.webp","assets/trousers.webp","favicon.svg","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","index.html","manifest.webmanifest"]};
+const { version, files } = {"version":"cc6844a22c5d3576b571","files":["assets/denim.webp","assets/glasses.webp","assets/index-BGVdAAxw.js","assets/index-D0Zq-A08.css","assets/jacket.webp","assets/knit.webp","assets/loafers.webp","assets/shirt.webp","assets/sneakers.webp","assets/tee.webp","assets/trousers.webp","favicon.svg","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","index.html","manifest.webmanifest"]};
 const cacheName = cachePrefix + version;
 const cachedPaths = new Set(files.map(path => new URL(path, scope).pathname));
 
