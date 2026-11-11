@@ -1,0 +1,1 @@
+async function e(){return null}export{e as suggestGarment};
