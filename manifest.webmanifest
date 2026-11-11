@@ -1,0 +1,16 @@
+{
+  "name": "Forma — демо гардероба",
+  "short_name": "Forma",
+  "description": "Собери образы на неделю из демогардероба Forma.",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f7f5",
+  "theme_color": "#f8f7f5",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
