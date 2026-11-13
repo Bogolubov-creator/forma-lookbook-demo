@@ -1,6 +1,6 @@
 const scope = new URL(self.registration.scope);
 const cachePrefix = 'forma-demo:' + scope.pathname + ':';
-const { version, files } = {"version":"fafbb14f853bafca4d35","files":["admin.css","assets/denim.webp","assets/garment-analysis-_WNeX8Cz.js","assets/glasses.webp","assets/index-C0N7xi1D.css","assets/index-qu9wIkIJ.js","assets/jacket.webp","assets/knit.webp","assets/loafers.webp","assets/shirt.webp","assets/sneakers.webp","assets/tee.webp","assets/trousers.webp","favicon.svg","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","index.html","manifest.webmanifest"]};
+const { version, files } = {"version":"c02fc38c55d28c9876d3","files":["admin.css","assets/denim.webp","assets/garment-analysis-0PqFZxkR.js","assets/glasses.webp","assets/index-3gezZeih.js","assets/index-DAG93BMk.css","assets/jacket.webp","assets/knit.webp","assets/loafers.webp","assets/shirt.webp","assets/sneakers.webp","assets/tee.webp","assets/trousers.webp","favicon.svg","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","index.html","manifest.webmanifest"]};
 const cacheName = cachePrefix + version;
 const cachedPaths = new Set(files.map(path => new URL(path, scope).pathname));
 
